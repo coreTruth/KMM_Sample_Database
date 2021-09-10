@@ -1,0 +1,13 @@
+CREATE TABLE User (
+    id INTEGER NOT NULL PRIMARY KEY,
+    name TEXT NOT NULL
+);
+
+insertUser:
+INSERT INTO User(id, name) VALUES(?, ?);
+
+selectAllUsers:
+SELECT * FROM User;
+
+deleteAllUsers:
+DELETE FROM User;
